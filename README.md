@@ -1,14 +1,14 @@
-# React::Tags::Rails
+# react-tags-rails
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/react/tags/rails`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+[React-Tags](https://github.com/prakhar1989/react-tags) for Rails
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add these line to your application's Gemfile:
 
 ```ruby
+gem 'react-dnd-html5-backend-rails'
+gem 'react-dnd-rails'
 gem 'react-tags-rails'
 ```
 
@@ -22,7 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Require React-Tags, ReactDnD, and ReactDnDHTML5Backend
+
+```js
+//= require ReactDnDHTML5Backend.min.js
+//= require ReactDnD.min.js
+//= require reactTags.min.js
+```
 
 ## Development
 
@@ -32,7 +38,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/react-tags-rails.
+Bug reports and pull requests are welcome on GitHub at [https://github.com/bmb330/react-tags-rails](https://github.com/bmb330/react-tags-rails).
 
 
 ## License
