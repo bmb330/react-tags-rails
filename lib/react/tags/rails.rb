@@ -3,7 +3,8 @@ require "react/tags/rails/version"
 module React
   module Tags
     module Rails
-      # Your code goes here...
+      class Engine < ::Rails::Engine
+      end
     end
   end
 end
