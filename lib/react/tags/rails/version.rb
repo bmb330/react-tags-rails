@@ -1,7 +1,7 @@
 module React
   module Tags
     module Rails
-      VERSION = "2.2.6"
+      VERSION = "3.0.1"
     end
   end
 end
